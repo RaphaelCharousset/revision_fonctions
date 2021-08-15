@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    font-size: 16px;
+    padding: 2rem;
+}
+
+header {
+    border: 2px solid black;
+    background: linear-gradient(90deg, rgba(0,0,145,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 67%, rgba(225,0,15,1) 100%);
+}
+
+header h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0 0;
+    border: 2px solid black;
+    background: url('./../img/double-bubble.png');
+}
+
+.article {
+    width: 200px;
+    height: 300px;
+    padding: .5rem;
+    margin: 1.5rem 4rem;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ;
+}
+
+.article:hover {
+    transform: scale(1.1);
+}
